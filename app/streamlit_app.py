@@ -128,11 +128,18 @@ if brief is None:
     st.info("Select a DEMO fixture and generate a brief. Live mode uses NVIDIA Nemotron on Nebius Token Factory.")
     st.stop()
 
-m1, m2, m3, m4 = st.columns(4)
-m1.metric("Lock state", brief.lock_state)
-m2.metric("R0 provenance", f"{brief.chp.provenance_score:.0%}")
-m3.metric("ICFR gaps", str(len(brief.icfr_gaps)))
-m4.metric("Model", brief.model.mode.upper())
+def _chip(label: str, value: str) -> str:
+    return (
+        f"<div class='card' style='margin-bottom:0.6rem'><div class='small'>{label}</div>"
+        f"<div style='font-size:1.15rem;font-weight:600;letter-spacing:.02em'>{value}</div></div>"
+    )
+
+
+c_lock, c_r0, c_gaps, c_model = st.columns(4)
+c_lock.markdown(_chip("Lock state", brief.lock_state), unsafe_allow_html=True)
+c_r0.markdown(_chip("R0 provenance", f"{brief.chp.provenance_score:.0%}"), unsafe_allow_html=True)
+c_gaps.markdown(_chip("ICFR gaps", str(len(brief.icfr_gaps))), unsafe_allow_html=True)
+c_model.markdown(_chip("Model mode", brief.model.mode.upper()), unsafe_allow_html=True)
 
 st.markdown(f"**{brief.signal.headline}**")
 st.caption(

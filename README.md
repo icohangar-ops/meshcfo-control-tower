@@ -187,6 +187,17 @@ This control tower is a specialized MeshCFO surface. Pair with:
 
 Video script: [`DEMO.md`](DEMO.md) (≤ 3 minutes).
 
+
+## Demo video
+
+≤ 3 minute walkthrough (1080p MP4) for Nebius × NVIDIA · Best Apps and Agents:
+
+- **Download (Cubiczan):** [meshcfo-control-tower-demo.mp4](https://github.com/Cubiczan/meshcfo-control-tower/releases/download/v0.1.0-demo/meshcfo-control-tower-demo.mp4) · [release v0.1.0-demo](https://github.com/Cubiczan/meshcfo-control-tower/releases/tag/v0.1.0-demo)
+- **Mirror (icohangar-ops):** [meshcfo-control-tower-demo.mp4](https://github.com/icohangar-ops/meshcfo-control-tower/releases/download/v0.1.0-demo/meshcfo-control-tower-demo.mp4)
+- Shot notes: [`docs/demo/README.md`](docs/demo/README.md) · script: [`DEMO.md`](DEMO.md)
+
+Live path shown: **NVIDIA Nemotron 3 Nano** (`nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`) on **Nebius Token Factory**.
+
 ## License
 
 MIT. See [`LICENSE`](LICENSE). Copyright (c) 2026 Shyam Desigan / Cubiczan.

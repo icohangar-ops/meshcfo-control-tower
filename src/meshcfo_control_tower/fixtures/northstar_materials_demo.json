@@ -1,0 +1,59 @@
+{
+  "fixture_id": "northstar",
+  "demo": true,
+  "demo_disclaimer": "DEMO ISSUER — fictional Cubiczan sample. Not an SEC registrant. Not a real company filing.",
+  "company": {
+    "display_name": "Northstar Materials, Inc. (DEMO)",
+    "ticker": "NSMT-DEMO",
+    "cik": "0000000001-DEMO",
+    "demo": true,
+    "industry": "Industrial materials distribution (demo)"
+  },
+  "signal_kind": "both",
+  "forms": ["8-K", "10-Q"],
+  "filed_on": "2026-03-14",
+  "period_end": "2025-09-30",
+  "auditor_demo": "Harbor & Pike LLP (DEMO auditor name)",
+  "process_areas": ["revenue_recognition", "period_end_close"],
+  "structured_facts": {
+    "restatement_periods": "FY2025 Q2 and Q3 unaudited condensed consolidated financial statements",
+    "accounting_topic": "ASC 606 bill-and-hold and revenue cutoff",
+    "item_402": "8-K Item 4.02 Non-Reliance concluded by Audit Committee on 2026-03-12",
+    "mw_area": "Design and operating effectiveness of controls over revenue cutoff and bill-and-hold criteria",
+    "why_now": "Non-reliance + expected 10-Q/10-K amendment cycle before next periodic report"
+  },
+  "excerpts": [
+    {
+      "source_id": "nsmt-8k-402-p1",
+      "form": "8-K",
+      "item": "Item 4.02",
+      "locator": "8-K Item 4.02 ¶1 (DEMO)",
+      "filed_on": "2026-03-14",
+      "excerpt": "DEMO FILING TEXT — not a real EDGAR document. On March 12, 2026, the Audit Committee of Northstar Materials, Inc. (DEMO ISSUER) concluded that the Company's unaudited condensed consolidated financial statements for the quarterly periods ended June 30, 2025 and September 30, 2025 should no longer be relied upon."
+    },
+    {
+      "source_id": "nsmt-8k-402-p2",
+      "form": "8-K",
+      "item": "Item 4.02",
+      "locator": "8-K Item 4.02 ¶2 (DEMO)",
+      "filed_on": "2026-03-14",
+      "excerpt": "DEMO FILING TEXT. The non-reliance determination arose from errors in the timing of revenue recognition for certain bill-and-hold arrangements with industrial distributors. Customer requests to hold product were not consistently documented, and shipping terms were evaluated after invoices had been recorded."
+    },
+    {
+      "source_id": "nsmt-10q-9a-p1",
+      "form": "10-Q",
+      "item": "Item 4 / Item 9A analog",
+      "locator": "10-Q controls disclosure ¶1 (DEMO)",
+      "filed_on": "2026-03-14",
+      "excerpt": "DEMO FILING TEXT. Management preliminarily determined that a material weakness exists in internal control over financial reporting related to the design and operating effectiveness of controls over revenue cutoff and the evaluation of bill-and-hold criteria under ASC 606."
+    },
+    {
+      "source_id": "nsmt-10q-9a-p2",
+      "form": "10-Q",
+      "item": "Item 4 / Item 9A analog",
+      "locator": "10-Q controls disclosure ¶2 (DEMO)",
+      "filed_on": "2026-03-14",
+      "excerpt": "DEMO FILING TEXT. The material weakness resulted in a failure to detect the cutoff errors described above. Compensating detective reviews of aged bill-and-hold inventory were performed quarterly but were not designed to re-test ASC 606 criteria before revenue was recognized."
+    }
+  ]
+}

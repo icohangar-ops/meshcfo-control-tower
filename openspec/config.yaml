@@ -1,0 +1,15 @@
+schema: spec-driven
+
+context: |
+  Cubiczan MeshCFO Control Tower for the Nebius x NVIDIA Global AI Hackathon
+  (Best Apps and Agents). Primary inference is NVIDIA Nemotron on Nebius Token Factory.
+  Brand spelling is Cubiczan. Demo fixtures must be labeled DEMO and must not impersonate
+  real SEC registrants.
+
+rules:
+  proposal:
+    - Keep changes scoped to one capability.
+  specs:
+    - Spec only the capability being touched (brownfield rule).
+  tasks:
+    - Tasks must be implementable without calendar estimates.

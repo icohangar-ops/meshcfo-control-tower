@@ -1,0 +1,50 @@
+{
+  "fixture_id": "lumenbridge",
+  "demo": true,
+  "demo_disclaimer": "DEMO ISSUER — fictional Cubiczan sample. Not an SEC registrant. Not a real company filing.",
+  "company": {
+    "display_name": "Lumenbridge Payments Corp. (DEMO)",
+    "ticker": "LMPC-DEMO",
+    "cik": "0000000002-DEMO",
+    "demo": true,
+    "industry": "Payment facilitation / fintech (demo)"
+  },
+  "signal_kind": "material_weakness",
+  "forms": ["10-K"],
+  "filed_on": "2026-02-28",
+  "period_end": "2025-12-31",
+  "auditor_demo": "Weston Hale & Co. (DEMO auditor name)",
+  "process_areas": ["itgc_access", "change_management", "period_end_close"],
+  "structured_facts": {
+    "mw_area": "IT general controls — privileged access, segregation of duties, and change management over the payments ledger",
+    "first_year_sox": "true",
+    "erp_cutover": "Ledger platform cutover in FY2025 Q3",
+    "why_now": "First annual ICFR opinion year after platform cutover; Item 9A MW disclosed"
+  },
+  "excerpts": [
+    {
+      "source_id": "lmpc-10k-9a-p1",
+      "form": "10-K",
+      "item": "Item 9A",
+      "locator": "10-K Item 9A ¶1 (DEMO)",
+      "filed_on": "2026-02-28",
+      "excerpt": "DEMO FILING TEXT — not a real EDGAR document. Management of Lumenbridge Payments Corp. (DEMO ISSUER) concluded that internal control over financial reporting was not effective as of December 31, 2025 because of a material weakness in IT general controls supporting the payments ledger."
+    },
+    {
+      "source_id": "lmpc-10k-9a-p2",
+      "form": "10-K",
+      "item": "Item 9A",
+      "locator": "10-K Item 9A ¶2 (DEMO)",
+      "filed_on": "2026-02-28",
+      "excerpt": "DEMO FILING TEXT. Privileged access to production was granted to developers during the Q3 platform cutover and was not recertified. Several users retained combined access to initiate and approve journal-equivalent settlement adjustments."
+    },
+    {
+      "source_id": "lmpc-10k-9a-p3",
+      "form": "10-K",
+      "item": "Item 9A",
+      "locator": "10-K Item 9A ¶3 (DEMO)",
+      "filed_on": "2026-02-28",
+      "excerpt": "DEMO FILING TEXT. Change-management controls did not require independent review of emergency production changes. Management stated that it has not identified a restatement to date, but the deficiencies could result in a material misstatement of settlement revenue or merchant liability that would not be prevented or detected on a timely basis."
+    }
+  ]
+}

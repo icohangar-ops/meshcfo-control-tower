@@ -1,0 +1,51 @@
+{
+  "fixture_id": "cedarline",
+  "demo": true,
+  "demo_disclaimer": "DEMO ISSUER — fictional Cubiczan sample. Not an SEC registrant. Not a real company filing.",
+  "company": {
+    "display_name": "Cedarline Health Partners (DEMO)",
+    "ticker": "CDLH-DEMO",
+    "cik": "0000000003-DEMO",
+    "demo": true,
+    "industry": "Outpatient clinic operator (demo)"
+  },
+  "signal_kind": "both",
+  "forms": ["8-K", "10-K"],
+  "filed_on": "2026-01-22",
+  "period_end": "2025-12-31",
+  "auditor_demo": "Peregrine Audit Group (DEMO auditor name)",
+  "process_areas": ["inventory_reserves", "complex_estimates", "period_end_close"],
+  "structured_facts": {
+    "restatement_periods": "FY2024 Form 10-K and FY2025 interim periods",
+    "accounting_topic": "Medical supply inventory obsolescence and NRV reserves",
+    "item_402": "8-K Item 4.02 Non-Reliance on FY2024 audited financial statements",
+    "mw_area": "Controls over inventory existence, obsolescence triggers, and period-end reserve estimates",
+    "why_now": "Non-reliance on prior audited 10-K plus inventory estimate MW heading into next 10-K"
+  },
+  "excerpts": [
+    {
+      "source_id": "cdlh-8k-402-p1",
+      "form": "8-K",
+      "item": "Item 4.02",
+      "locator": "8-K Item 4.02 ¶1 (DEMO)",
+      "filed_on": "2026-01-22",
+      "excerpt": "DEMO FILING TEXT — not a real EDGAR document. On January 16, 2026, the Audit Committee of Cedarline Health Partners (DEMO ISSUER) concluded that the Company's audited consolidated financial statements for the year ended December 31, 2024, and the related audit report, should no longer be relied upon."
+    },
+    {
+      "source_id": "cdlh-8k-402-p2",
+      "form": "8-K",
+      "item": "Item 4.02",
+      "locator": "8-K Item 4.02 ¶2 (DEMO)",
+      "filed_on": "2026-01-22",
+      "excerpt": "DEMO FILING TEXT. Certain specialty medical supplies approaching expiry were carried at cost. Subsequent physical counts and usage analyses indicated that net realizable value was below carrying value, understating cost of supplies and overstating inventory."
+    },
+    {
+      "source_id": "cdlh-10k-9a-p1",
+      "form": "10-K",
+      "item": "Item 9A",
+      "locator": "10-K Item 9A ¶1 (DEMO)",
+      "filed_on": "2026-01-22",
+      "excerpt": "DEMO FILING TEXT. Management identified a material weakness in the design of controls over inventory existence and the operating effectiveness of controls that evaluate obsolescence triggers and period-end reserve estimates."
+    }
+  ]
+}
